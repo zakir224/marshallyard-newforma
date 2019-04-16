@@ -12,7 +12,7 @@ public class UtilTest {
 
     @Test
     public void randomWithInBound() {
-        assertTrue(Util.getRandom(10) > 10);
+        assertTrue(Util.getRandom(10) < 10);
     }
 
     @Test
